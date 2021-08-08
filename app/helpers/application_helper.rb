@@ -224,6 +224,14 @@ module ApplicationHelper
     end
   end
 
+  def svg_icon(filename, options={})
+    tag :span, class: options[:class] do
+      render partial: "/icons/#{filename}", formats: [:html]
+    end
+  rescue ActionView::MissingTemplate
+    '' # render nothing if the svg does not exist
+  end
+
   private
 
   def custom_flash(flash_type)

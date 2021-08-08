@@ -1,0 +1,21 @@
+<%= link_to notification_path(@notification), method: :patch, class: "no-underline px-4 py-4 #{ read_status_link_color_class }" do %>
+  <li class="bg-white shadow overflow-hidden p-4 sm:rounded-md">
+    <div class="flex">
+      <div class="mr-4 flex-shrink-0">
+        <%= helpers.svg_icon 'icon-read-notification' %>
+        <%= render inline: Rails.root.join('app/assets/images/icons/icon-read-notification.svg').read %>
+        <%= notification_icon %>
+      </div>
+      <div class="flex-col">
+        <div>
+          <p class="text-base font-semibold"><%= @notification.title %></p>
+        </div>
+        <div>
+          <p class="mt-1 text-base">
+            <%= @notification.message %>
+          </p>
+        </div>
+      </div>
+    </div>
+  </li>
+<% end %>
