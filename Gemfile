@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '~> 2.7'
 
-gem 'rails', '6.1.4'
+gem 'rails', '6.1.6.1'
 
 gem 'activeadmin'
 gem 'activeadmin_addons', '~> 1.8.3'
@@ -23,7 +23,7 @@ gem 'kaminari', '~> 1.2'
 gem 'kramdown', '>= 2.3.1'
 gem 'newrelic_rpm'
 gem 'nokogiri', '~> 1.12.2'
-gem 'noticed', '~> 1.4'
+gem 'noticed', '~> 1.4', '>= 1.4.1'
 gem 'octokit', '~> 4.21'
 gem 'omniauth-github'
 gem 'omniauth-google-oauth2'
