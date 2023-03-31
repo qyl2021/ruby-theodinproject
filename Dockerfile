@@ -4,7 +4,7 @@
 # on the same network as this container.
 #
 
-FROM ruby:2.6-buster
+FROM ruby:2.7.7-buster
 LABEL maintainer="Andy Duss <mindovermiles262@gmail.com>"
 
 # Install yarn and NodeJS
