@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 ruby '~> 2.7'
 
-gem 'rails', '6.1.4'
+gem 'rails', '7.1.0'
 
 gem 'activeadmin'
-gem 'activeadmin_addons', '~> 1.8.3'
+gem 'activeadmin_addons', '~> 1.9.0'
 gem 'active_material'
 gem 'acts_as_votable'
 gem 'bootsnap', '~> 1.7.7', require: false
@@ -23,7 +23,7 @@ gem 'kaminari', '~> 1.2'
 gem 'kramdown', '>= 2.3.1'
 gem 'newrelic_rpm'
 gem 'nokogiri', '~> 1.12.2'
-gem 'noticed', '~> 1.4'
+gem 'noticed', '~> 1.5', '>= 1.5.0'
 gem 'octokit', '~> 4.21'
 gem 'omniauth-github'
 gem 'omniauth-google-oauth2'
