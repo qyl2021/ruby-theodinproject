@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 ruby '~> 2.7'
 
-gem 'rails', '6.1.4'
+gem 'rails', '7.0.0'
 
 gem 'activeadmin'
 gem 'activeadmin_addons', '~> 1.8.3'
 gem 'active_material'
 gem 'acts_as_votable'
 gem 'bootsnap', '~> 1.7.7', require: false
-gem 'bootstrap', '4.6.0'
+gem 'bootstrap', '4.6.2.1'
 gem 'cancancan'
 gem 'devise', '>= 4.7.1'
 gem 'discard', '~> 1.2'
@@ -22,7 +22,7 @@ gem 'jquery-rails', '~> 4.4.0'
 gem 'kaminari', '~> 1.2'
 gem 'kramdown', '>= 2.3.1'
 gem 'newrelic_rpm'
-gem 'nokogiri', '~> 1.12.2'
+gem 'nokogiri', '~> 1.18.3'
 gem 'noticed', '~> 1.4'
 gem 'octokit', '~> 4.21'
 gem 'omniauth-github'
@@ -71,7 +71,7 @@ group :development, :docker do
   gem 'listen'
   gem 'reek'
   gem 'rubocop', '>= 1.12.1', require: false
-  gem 'rubocop-performance', '>= 1.10.2', require: false
-  gem 'rubocop-rails', '~> 2.11', require: false
+  gem 'rubocop-performance', '>= 1.24.0', require: false
+  gem 'rubocop-rails', '~> 2.30', '>= 2.30.0', require: false
   gem 'web-console'
 end
