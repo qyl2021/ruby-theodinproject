@@ -55,7 +55,7 @@ group :development, :test, :docker do
   gem 'pry', '~> 0.14.1'
   gem 'rails-controller-testing'
   gem 'rake', '~> 13.0'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'rspec-retry', '~> 0.6.2'
   gem 'shoulda-matchers'
   gem 'simplecov', require: false
